@@ -18,6 +18,25 @@ To help you know what possible diseases you have,and show you the right doctor f
     As a user I should be able to get the description about the diseases and treatment . 
 
 
+### File structer 
+
+- public
+  - index.html
+  - CSS
+    -style.css
+  -Js
+    - script.js
+  -assest
+  
+- src
+  - server.js
+  - handler.js 
+  - router.js
+  
+- test 
+  - test.js
+  
+- .travis.yml
 
 ### Sketch 
 
