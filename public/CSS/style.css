@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 98px;
+    margin-left: 25px;
+}
+
+input[type='search']{
+    width: 77%;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+input[type="button"]{
+    width: 15%;
+}
