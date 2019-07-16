@@ -26,7 +26,7 @@ To help you know what possible diseases you have,and show you the right doctor f
     - style.css 
   - Js
     - script.js
-  -assest
+  - assest
   
 - src
   - server.js
