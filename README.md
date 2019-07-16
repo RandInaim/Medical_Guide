@@ -19,7 +19,9 @@ To help you know what possible diseases you have,and show you the right doctor f
 
 
 
-### Skitch 
+### Sketch 
+
+![skitch](https://user-images.githubusercontent.com/45894766/61291289-cb782780-a7d6-11e9-9ea4-cea5ccbe7b5c.jpg)
 
 
 
