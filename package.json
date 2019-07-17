@@ -25,5 +25,8 @@
   "homepage": "https://github.com/fack2/Medical_Guide#readme",
   "devDependencies": {
     "eslint": "^6.0.1"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }
