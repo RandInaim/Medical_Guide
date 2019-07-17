@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Medical Guide</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="CSS/style.css">
-    </head>
-    <body>
-        <div>
-            <form action="/action_page.php">
-              <label for="Input"></label>
-              <input type="text" id="Input" placeholder="Enter your symptoms">
-            
-              <input type="submit" value="Search">
-            </form>
-          </div>
-        <script src="JS/script.js"></script>
-    </body>
+  <head>
+    <title>Medical Guide</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/CSS/style.css" />
+  </head>
+  <body>
+    <div>
+      <form action="/action_page.php">
+        <label for="Input"></label>
+        <input type="text" id="Input" placeholder="Enter your symptoms" />
+
+        <input type="submit" value="Search" id="search" />
+      </form>
+    </div>
+    <div class="list">
+      <ul class="ulList" id="list"></ul>
+    </div>
+    <script src="public/JS/script.js"></script>
+  </body>
 </html>
