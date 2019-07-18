@@ -13,14 +13,12 @@ search.addEventListener('click', (event) => {
 				return response.json();
 			})
 			.then((data) => {
-				console.log('gshjaf', data);
-
-				for (let i = 0; i < data.length; i++) {
+				data.forEach((element) => {
 					const li = document.createElement('li');
-					li.innerText = data[i].name;
+					li.innerText = element.name;
 
 					li.setAttribute('class', 'list');
-					li.innerText = data[i].name;
+					li.innerText = element.name;
 					list.appendChild(li);
 					let count = 0;
 
@@ -31,10 +29,9 @@ search.addEventListener('click', (event) => {
 					const symptomps = document.createElement('p');
 
 					li.addEventListener('click', () => {
-						console.log('count', count);
 						count++;
 						let diseaseId = '';
-						diseaseId = data[i].id;
+						diseaseId = element.id;
 
 						fetch(`/treatment=${diseaseId}`)
 							.then((response) => {
@@ -54,7 +51,7 @@ search.addEventListener('click', (event) => {
 							li.removeChild(descDiv);
 						}
 					});
-				}
+				}); // foreach
 			});
-	} /// else
+	} // else
 });
