@@ -97,7 +97,7 @@ const apiHandler = (req, res, endpoint) => {
 			});
 
 			res.end(JSON.stringify(filterDiagnosis));
-		});
+		}); //done
 	});
 };
 
