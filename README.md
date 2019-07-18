@@ -1,4 +1,4 @@
-# Medical Guide 
+# Medical Guide [![Build Status](https://travis-ci.org/fack2/Medical_Guide.svg?branch=master)](https://travis-ci.org/fack2/Medical_Guide)
 
 link: 
 (https://medical-guide.herokuapp.com/)
