@@ -1,35 +1,36 @@
 {
-	"name": "Medical_Guide",
-	"version": "1.0.0",
-	"description": "### What Its a website for helping you to detict your illnes , and show you a list for expected diseases and displays a description of a disease you select . Then it will display to you possible treatmen for your case .",
-	"main": "index.js",
-	"directories": {
-		"test": "test"
-	},
-	"scripts": {
-		"lint": "eslint src/* ",
-		"start": "node src/server.js",
-		"dev": "nodemon src/server.js",
-		"test": "node test/test.js | tap-spec"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/fack2/Medical_Guide.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/fack2/Medical_Guide/issues"
-	},
-	"homepage": "https://github.com/fack2/Medical_Guide#readme",
-	"devDependencies": {
-		"eslint": "^6.0.1",
-		"nodemon": "^1.19.1",
-		"tap-spec": "^5.0.0",
-		"tape": "^4.11.0"
-	},
-	"dependencies": {
-		"request": "^2.88.0"
-	}
+  "name": "Medical_Guide",
+  "version": "1.0.0",
+  "description": "### What Its a website for helping you to detict your illnes , and show you a list for expected diseases and displays a description of a disease you select . Then it will display to you possible treatmen for your case .",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint src/* ",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node test/test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fack2/Medical_Guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fack2/Medical_Guide/issues"
+  },
+  "homepage": "https://github.com/fack2/Medical_Guide#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
